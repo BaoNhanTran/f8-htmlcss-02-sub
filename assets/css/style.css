@@ -1,0 +1,114 @@
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --primary: #1ebfc1;
+    --white: #fff;
+    --text-color: #9da6a5;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100vw - 64px);
+    margin: 0 auto;
+}
+
+.center-y {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 186px;
+    padding: 21.4px 16px;
+    border-radius: 14px;
+    background: var(--primary);
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.small-btn {
+    min-width: 108px;
+}
+
+.outline-btn {
+    color: var(--primary);
+    border: 1px solid currentColor;
+    background: var(--white);
+    padding: 11.4px 16px;
+    border-radius: 6px;
+}
+
+.outline-btn:hover {
+    color: var(--white);
+    background: var(--primary);
+}
+
+/* Header */
+.header {
+    padding: 52px 0 8px;
+}
+
+.header.sticky {
+    position: sticky;
+    top: -44px;
+    z-index: 1;
+}
+
+.header .nav {
+    margin-left: 215px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul a,
+.header .sign-in-btn {
+    padding: 8px 20px;
+    color: #2f3a3b;
+}
+
+.header .nav ul a:hover,
+.header .sign-in-btn:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .cta-group {
+    margin-left: auto;
+}
+
+.header .sign-in-btn {
+    margin-right: 4px;
+}
