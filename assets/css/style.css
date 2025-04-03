@@ -50,6 +50,10 @@ button {
     justify-content: space-between;
 }
 
+.section-spacing {
+    padding: 50px 0;
+}
+
 .center-y {
     display: flex;
     align-items: center;
@@ -103,6 +107,18 @@ button {
     line-height: 1.16;
 }
 
+.smaller-heading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.label {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+}
+
 .stat-text {
     color: var(--heading-color);
     font-size: 1rem;
@@ -113,6 +129,11 @@ button {
     color: var(--gray);
     font-size: 1.8rem;
     line-height: 1.78;
+}
+
+.small-desc {
+    font-size: 1.6rem;
+    line-height: 1.69;
 }
 
 /* Header */
@@ -319,4 +340,44 @@ button {
 
 .hero .avatar .stat-text {
     color: var(--white);
+}
+
+/* Features Section */
+.features-section {
+    margin-top: 80px;
+}
+
+.features-section .top-heading {
+    width: 577px;
+    margin: 18px 0;
+}
+
+.features-section .top-desc {
+    width: 590px;
+}
+
+.features-section .features-list {
+    display: flex;
+    width: 1024px;
+    margin-top: 80px;
+}
+
+.features-list .features-item {
+    flex: 4;
+}
+
+.features-list .features-item:first-child {
+    flex: 3;
+}
+
+.features-list .features-item:nth-child(2) {
+    margin-left: 209px;
+}
+
+.features-list .features-item:last-child {
+    margin-left: 200px;
+}
+
+.features-item .heading {
+    margin: 26px 0 16px;
 }
