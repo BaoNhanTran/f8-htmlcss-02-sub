@@ -50,6 +50,10 @@ button {
     justify-content: space-between;
 }
 
+.mt-30 {
+    margin-top: 30px;
+}
+
 .section-spacing {
     padding: 50px 0;
 }
@@ -399,10 +403,6 @@ button {
 }
 
 /* Courses */
-.courses {
-    margin-top: 30px;
-}
-
 .courses .top-heading {
     margin: 18px 0 19px;
 }
@@ -497,4 +497,30 @@ button {
     height: 6px;
     border-radius: 50%;
     background: var(--primary);
+}
+
+/* Stats */
+.stats {
+    padding: 185px 0;
+}
+
+.stats .list {
+    margin: 0 auto;
+    width: 862px;
+    max-width: calc(100vw - 200px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats .item {
+    text-align: center;
+}
+
+.stats .heading {
+    line-height: normal;
+}
+
+.stats .desc {
+    margin-top: 11px;
+    line-height: normal;
 }
