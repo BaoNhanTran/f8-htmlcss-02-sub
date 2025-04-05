@@ -4,6 +4,7 @@
     --white: #fff;
     --white-lv2: #fefefd;
     --heading-color: #0d1111;
+    --heading-color-secondary: #070707;
     --gray: #767e7e;
     --light-gray: #9da6a5;
 }
@@ -103,12 +104,10 @@ button {
     color: var(--heading-color);
     font-size: 42px;
     font-weight: 700;
-    line-height: 1.33;
 }
 
 .large-heading {
     font-size: 6.2rem;
-    line-height: 1.16;
 }
 
 .small-heading {
@@ -136,7 +135,6 @@ button {
 .desc {
     color: var(--gray);
     font-size: 1.8rem;
-    line-height: 1.78;
 }
 
 .small-desc {
@@ -152,6 +150,10 @@ button {
 
 .small-sub-desc {
     font-size: 1.4rem;
+    line-height: normal;
+}
+
+.lh-normal {
     line-height: normal;
 }
 
@@ -217,11 +219,12 @@ button {
 
 .hero .heading {
     margin-top: 18px;
-    line-height: normal;
+    line-height: 1.16;
 }
 
 .hero .desc {
     color: var(--light-gray);
+    line-height: 1.78;
 }
 
 .hero .cta-group {
@@ -371,11 +374,12 @@ button {
 .features-section .top-heading {
     width: 577px;
     margin: 18px 0;
+    line-height: 1.33;
 }
 
 .features-section .top-desc {
     width: 590px;
-    line-height: normal;
+    line-height: 1.78;
 }
 
 .features-section .features-list {
@@ -518,13 +522,8 @@ button {
     text-align: center;
 }
 
-.stats .heading {
-    line-height: normal;
-}
-
 .stats .desc {
     margin-top: 11px;
-    line-height: normal;
 }
 
 /* Feedback */
@@ -550,7 +549,7 @@ button {
 .feedback .student {
     position: relative;
     padding-left: 13px;
-    color: #070707;
+    color: var(--heading-color-secondary);
     font-weight: 500;
 }
 
@@ -637,4 +636,20 @@ button {
 
 .feedback .avatar-row.bottom .avatar-right {
     background-image: url('/assets/img/avatar-6.png');
+}
+
+/* CTA-section */
+.cta-section {
+    margin-top: 80px;
+    background: #def6f5;
+    padding: 76px 0 88px;
+}
+
+.cta-section .heading {
+    color: var(--heading-color-secondary);
+    margin-bottom: 18px;
+}
+
+.cta-section .btn {
+    margin-left: 410px;
 }
