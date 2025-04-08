@@ -55,6 +55,10 @@ button {
     margin-top: 30px;
 }
 
+.mt-80 {
+    margin-top: 80px;
+}
+
 .section-spacing {
     padding: 50px 0;
 }
@@ -76,6 +80,7 @@ button {
     background: var(--primary);
     color: var(--white);
     font-weight: 600;
+    user-select: none;
 }
 
 .btn:hover {
@@ -209,7 +214,7 @@ button {
     position: relative;
     width: 576px;
     height: 631px;
-    background: url('/assets/img/hero-img.png') #e0f7f6 -187.189px -71.417px / 157.903% 111.318% no-repeat;
+    background: url('../../assets/img/hero-img.png') #e0f7f6 -187.189px -71.417px / 157.903% 111.318% no-repeat;
 }
 
 .hero .main-label {
@@ -266,7 +271,7 @@ button {
     position: relative;
     width: 36px;
     height: 40px;
-    background: url('/assets/icons/book.svg') no-repeat;
+    background: url('../../assets/icons/book.svg') no-repeat;
 }
 
 .hero .white-bar-icon {
@@ -347,19 +352,19 @@ button {
 }
 
 .hero .avatar-1 {
-    background-image: url('/assets/img/avatar-1.png');
+    background-image: url('../../assets/img/avatar-1.png');
 }
 
 .hero .avatar-2 {
-    background-image: url('/assets/img/avatar-2.png');
+    background-image: url('../../assets/img/avatar-2.png');
 }
 
 .hero .avatar-3 {
-    background-image: url('/assets/img/avatar-3.png');
+    background-image: url('../../assets/img/avatar-3.png');
 }
 
 .hero .avatar-4 {
-    background-image: url('/assets/img/avatar-4.png');
+    background-image: url('../../assets/img/avatar-4.png');
 }
 
 .hero .avatar .stat-text {
@@ -367,10 +372,6 @@ button {
 }
 
 /* Features Section */
-.features-section {
-    margin-top: 80px;
-}
-
 .features-section .top-heading {
     width: 577px;
     margin: 18px 0;
@@ -385,7 +386,6 @@ button {
 .features-section .features-list {
     display: flex;
     width: 1024px;
-    margin-top: 80px;
 }
 
 .features-list .features-item {
@@ -455,15 +455,15 @@ button {
 }
 
 .course-item.course-1 {
-    background: url('/assets/img/course-1.png') 50% / cover no-repeat;
+    background: url('../../assets/img/course-1.png') 50% / cover no-repeat;
 }
 
 .course-item.course-2 {
-    background: url('/assets/img/course-2.png') 50% / cover no-repeat;
+    background: url('../../assets/img/course-2.png') 50% / cover no-repeat;
 }
 
 .course-item.course-3 {
-    background: url('/assets/img/course-3.png') 50% / cover no-repeat;
+    background: url('../../assets/img/course-3.png') 50% / cover no-repeat;
 }
 
 .courses .info {
@@ -603,13 +603,13 @@ button {
 }
 
 .feedback .avatar-row.top .avatar-left {
-    background-image: url('/assets/img/avatar-3.png');
+    background-image: url('../../assets/img/avatar-3.png');
 }
 
 .feedback .avatar-row.top .avatar-right {
     margin-top: 19px;
     margin-left: auto;
-    background-image: url('/assets/img/avatar-4.png');
+    background-image: url('../../assets/img/avatar-4.png');
 }
 
 .feedback .avatar-row.center {
@@ -618,11 +618,11 @@ button {
 
 .feedback .avatar-row.center .avatar-left {
     margin: 151px 195px 0 0;
-    background-image: url('/assets/img/avatar-1.png');
+    background-image: url('../../assets/img/avatar-1.png');
 }
 
 .feedback .avatar-row.center .avatar-right {
-    background-image: url('/assets/img/avatar-2.png');
+    background-image: url('../../assets/img/avatar-2.png');
 }
 
 .feedback .avatar-row.bottom {
@@ -631,16 +631,15 @@ button {
 
 .feedback .avatar-row.bottom .avatar-left {
     margin: 29px 279px 0 0;
-    background-image: url('/assets/img/avatar-5.png');
+    background-image: url('../../assets/img/avatar-5.png');
 }
 
 .feedback .avatar-row.bottom .avatar-right {
-    background-image: url('/assets/img/avatar-6.png');
+    background-image: url('../../assets/img/avatar-6.png');
 }
 
 /* CTA-section */
 .cta-section {
-    margin-top: 80px;
     background: #def6f5;
     padding: 76px 0 88px;
 }
@@ -652,4 +651,44 @@ button {
 
 .cta-section .btn {
     margin-left: 410px;
+}
+
+/* Footer */
+.footer .top-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 144px;
+}
+
+.footer .title {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .item {
+    margin-top: 18px;
+}
+
+.footer .item a {
+    color: #535353;
+}
+
+.footer .item a:hover {
+    text-decoration: underline;
+}
+
+.footer .column:last-child {
+    margin-left: -7px;
+}
+
+.footer .social-icon {
+    margin-right: 9px;
+}
+
+.footer .copy-right {
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
 }
